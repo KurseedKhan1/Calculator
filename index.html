@@ -13,34 +13,34 @@
         </div>
         <div class="btn">
             <div>
-                <button>AC</button>
-                <button>DEL</button>
-                <button>%</button>
-                <button>/</button>
+                <button onclick="clsData()">AC</button>
+                <button onclick="Del()">DEL</button>
+                <button onclick="storeData('%')">%</button>
+                <button onclick="storeData('/')">/</button>
             </div>
             <div>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>*</button>
+                <button onclick="storeData('7')">7</button>
+                <button onclick="storeData('8')">8</button>
+                <button onclick="storeData('9')">9</button>
+                <button onclick="storeData('*')">*</button>
             </div>
             <div>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>+</button>
+                <button onclick="storeData('4')">4</button>
+                <button onclick="storeData('5')">5</button>
+                <button onclick="storeData('6')">6</button>
+                <button onclick="storeData('+')">+</button>
             </div>
             <div>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>-</button>
+                <button onclick="storeData('1')">1</button>
+                <button onclick="storeData('2')">2</button>
+                <button onclick="storeData('3')">3</button>
+                <button onclick="storeData('-')">-</button>
             </div>
             <div>
-                <button>0</button>
-                <button>00</button>
-                <button>.</button>
-                <button class="operator">=</button>
+                <button onclick="storeData('0')">0</button>
+                <button onclick="storeData('00')">00</button>
+                <button onclick="storeData('.')">.</button>
+                <button class="operator" onclick="calculate()">=</button>
             </div>
         </div>
     </div>

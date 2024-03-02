@@ -34,13 +34,6 @@ input{
         border-radius: 10px;
         color: aliceblue;
     }
-    /* .btn{
-        width: 300px;
-        height: 450px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
 button{
     width: 45px;
     height: 45px;
